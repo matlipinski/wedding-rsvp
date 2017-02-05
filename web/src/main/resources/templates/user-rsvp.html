@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+
+    <title>Spring Framework Guru</title>
+    <script th:src="@{/webjars/jquery/3.1.1-1/jquery.min.js}"/>
+    <script th:src="@{/webjars/bootstrap/3.3.7/js/bootstrap.min.js}"/>
+    <script type="text/javascript" src="/static/jquery.backstretch.min.js"></script>;
+
+
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" href="/static/styles.css"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<h1>
+    Witaj na taej stronie!
+</h1>
+    <script type="text/javascript">
+        $.backstretch("/static/img/back.jpg", {speed: 150});
+    </script>
+</body>
+</html>
